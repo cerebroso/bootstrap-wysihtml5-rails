@@ -15,7 +15,9 @@
         emphasis: {
             bold: "Negrito",
             italic: "Itálico",
-            underline: "Sublinhado"
+            underline: "Sublinhado",
+            sub: "Subscrito",
+            sup: "Sobrescrito"
         },
         lists: {
             unordered: "Lista",
