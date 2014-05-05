@@ -33,6 +33,7 @@
             insert: "Inserir imagem",
             cancel: "Cancelar"
         },
+        pre: "Código",
         html: {
             edit: "Editar HTML"
         },
