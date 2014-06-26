@@ -4921,7 +4921,13 @@ wysihtml5.dom.parse = (function() {
 
     if (checkAttributes) {
       for (attributeName in checkAttributes) {
-        method = attributeCheckMethods[checkAttributes[attributeName]];
+        if(checkAttributes[attributeName] == 'allow') {
+            method = function(originalName){
+                return originalName;
+            };
+        } else {
+            method = attributeCheckMethods[checkAttributes[attributeName]];
+        }
         if (!method) {
           continue;
         }
