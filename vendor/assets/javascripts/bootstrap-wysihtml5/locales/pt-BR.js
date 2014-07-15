@@ -27,7 +27,8 @@
         },
         link: {
             insert: "Inserir link",
-            cancel: "Cancelar"
+            cancel: "Cancelar",
+            target: "Abrir link em nova janela"
         },
         image: {
             insert: "Inserir imagem",
