@@ -7638,11 +7638,11 @@ wysihtml5.Commands = Base.extend(
 
   wysihtml5.commands.justify = {
     exec: function(composer, command) {
-      return wysihtml5.commands.formatBlock.exec(composer, "formatBlock", null, CLASS_NAME, REG_EXP);
+      return wysihtml5.commands.formatInline.exec(composer, "formatInline", 'div', CLASS_NAME, REG_EXP);
     },
 
     state: function(composer, command) {
-      return wysihtml5.commands.formatBlock.state(composer, "formatBlock", null, CLASS_NAME, REG_EXP);
+      return wysihtml5.commands.formatInline.state(composer, "formatInline", 'div', CLASS_NAME, REG_EXP);
     },
 
     value: function() {
@@ -7656,11 +7656,11 @@ wysihtml5.Commands = Base.extend(
 
   wysihtml5.commands.justifyCenter = {
     exec: function(composer, command) {
-      return wysihtml5.commands.formatBlock.exec(composer, "formatBlock", null, CLASS_NAME, REG_EXP);
+      return wysihtml5.commands.formatInline.exec(composer, "formatInline", 'div', CLASS_NAME, REG_EXP);
     },
 
     state: function(composer, command) {
-      return wysihtml5.commands.formatBlock.state(composer, "formatBlock", null, CLASS_NAME, REG_EXP);
+      return wysihtml5.commands.formatInline.state(composer, "formatInline", 'div', CLASS_NAME, REG_EXP);
     },
 
     value: function() {
@@ -7674,11 +7674,11 @@ wysihtml5.Commands = Base.extend(
 
   wysihtml5.commands.justifyLeft = {
     exec: function(composer, command) {
-      return wysihtml5.commands.formatBlock.exec(composer, "formatBlock", null, CLASS_NAME, REG_EXP);
+      return wysihtml5.commands.formatInline.exec(composer, "formatInline", 'div', CLASS_NAME, REG_EXP);
     },
 
     state: function(composer, command) {
-      return wysihtml5.commands.formatBlock.state(composer, "formatBlock", null, CLASS_NAME, REG_EXP);
+      return wysihtml5.commands.formatInline.state(composer, "formatInline", 'div', CLASS_NAME, REG_EXP);
     },
 
     value: function() {
@@ -7692,11 +7692,11 @@ wysihtml5.Commands = Base.extend(
 
   wysihtml5.commands.justifyRight = {
     exec: function(composer, command) {
-      return wysihtml5.commands.formatBlock.exec(composer, "formatBlock", null, CLASS_NAME, REG_EXP);
+      return wysihtml5.commands.formatInline.exec(composer, "formatInline", 'div', CLASS_NAME, REG_EXP);
     },
 
     state: function(composer, command) {
-      return wysihtml5.commands.formatBlock.state(composer, "formatBlock", null, CLASS_NAME, REG_EXP);
+      return wysihtml5.commands.formatInline.state(composer, "formatInline", 'div', CLASS_NAME, REG_EXP);
     },
 
     value: function() {
