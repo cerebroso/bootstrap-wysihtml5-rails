@@ -34,6 +34,7 @@
             insert: "Inserir imagem",
             cancel: "Cancelar"
         },
+        filter: "Filtrar por nome",
         pre: "Código",
         html: {
             edit: "Editar HTML"
