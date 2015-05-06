@@ -32,9 +32,9 @@
         },
         image: {
             insert: "Inserir imagem",
-            cancel: "Cancelar"
+            cancel: "Cancelar",
+            filter: "Filtrar por nome"
         },
-        filter: "Filtrar por nome",
         pre: "Código",
         html: {
             edit: "Editar HTML"
