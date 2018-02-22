@@ -32,7 +32,8 @@
         },
         image: {
             insert: "Inserir imagem",
-            cancel: "Cancelar"
+            cancel: "Cancelar",
+            filter: "Filtrar"
         },
         pre: "Código",
         html: {
