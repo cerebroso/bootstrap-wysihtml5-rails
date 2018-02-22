@@ -33,7 +33,7 @@
         image: {
             insert: "Inserir imagem",
             cancel: "Cancelar",
-            filter: "Filtrar"
+            filter: "Filtrar por nome"
         },
         pre: "Código",
         html: {

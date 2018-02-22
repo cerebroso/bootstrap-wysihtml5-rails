@@ -23,7 +23,8 @@
         },
         link: {
             insert: "Insertar enlace",
-            cancel: "Cancelar"
+            cancel: "Cancelar",
+            target: "Abrir link en una nueva ventana"
         },
         image: {
             insert: "Insertar imágen",
