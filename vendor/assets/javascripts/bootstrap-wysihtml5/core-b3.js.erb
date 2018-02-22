@@ -315,7 +315,7 @@
             var insertLink = function() {
                 var url = urlInput.val();
                 urlInput.val(initialValue);
-                self.editor.currentView.element.focus();
+                $(self.editor.currentView.element).focus();
                 if (caretBookmark) {
                   self.editor.composer.selection.setBookmark(caretBookmark);
                   caretBookmark = null;
@@ -344,14 +344,14 @@
             });
 
             insertLinkModal.on('hide', function() {
-                self.editor.currentView.element.focus();
+                $(self.editor.currentView.element).focus();
             });
 
             toolbar.find('a[data-wysihtml5-command=createLink]').click(function() {
                 var activeButton = $(this).hasClass("wysihtml5-command-active");
 
                 if (!activeButton) {
-                    self.editor.currentView.element.focus(false);
+                    $(self.editor.currentView.element).focus(false);
                     caretBookmark = self.editor.composer.selection.getBookmark();
                     insertLinkModal.appendTo('body').modal('show');
                     insertLinkModal.on('click.dismiss.modal', '[data-dismiss="modal"]', function(e) {
